@@ -20,6 +20,8 @@
 
 
 // Sometimes the last test fails and says the tooltip data-date attribute does not equal what is expected but if you scroll down to the tooltip and un-comment the console.log you'll see it does in fact equal the data point from the raw json
+import * as d3 from 'd3';
+
 
 const h = 600;
 const w = 1000;
