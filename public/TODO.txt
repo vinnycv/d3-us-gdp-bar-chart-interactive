@@ -1,2 +1,11 @@
 put source code files in public
 
+responsive sizing
+
+put "made with D3"?
+
+put 'vinnyv' with link to github
+
+clean up files
+
+restructure project?
