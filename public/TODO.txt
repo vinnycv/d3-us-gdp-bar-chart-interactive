@@ -1,4 +1,4 @@
-put source code files in public
+    DONE 6/28 put source code files in public
 
 responsive sizing
 
@@ -9,3 +9,5 @@ put 'vinnyv' with link to github
 clean up files
 
 restructure project?
+
+    DONE 6/28 change name of counter.js

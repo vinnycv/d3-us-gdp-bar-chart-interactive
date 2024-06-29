@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+}
+
+.container {
+  position: relative;
+  box-shadow: 0 0 8px black;
+  display: flex;
+/*   flex gets rid of the little blue bar at the bottom, not sure where it comes from */
+}
+
+#tooltip {
+  position: absolute;
+/*   z-index: 2; */
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid;
+  box-shadow: 0 0 8px black;
+  height: 50px;
+  width: 150px;
+  pointer-events: none;
+  text-align: center;
+/*   align-items  didn't center the innerHTML but text-align did*/
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  pointer-events: none;
+/*   'none' stops the overlay from blocking the mouseover of the bar and executing the mouseout when it appears  */
+}
