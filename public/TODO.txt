@@ -1,8 +1,8 @@
     DONE 6/28 put source code files in public
 
-responsive sizing
+responsive sizing - look into how you could do this with D3
 
-put "made with D3"?
+    NO - put "made with D3"?
 
 put 'vinnyv' with link to github
 
@@ -11,3 +11,7 @@ clean up files
 restructure project?
 
     DONE 6/28 change name of counter.js
+
+delete main.js?
+
+update the chart colors to something better
